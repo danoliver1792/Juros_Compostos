@@ -49,12 +49,28 @@ namespace JurosCompostos
 
         static void CalcularMontante()
         {
+            Console.WriteLine("Capital (em R$): ");
+            float capital = float.Parse(Console.ReadLine());
+            Console.WriteLine("Taxa de Juros (em %): ");
+            int taxa = int.Parse(Console.ReadLine());
+            Console.WriteLine("Periodo (em meses): ");
+            int periodo = int.Parse(Console.ReadLine());
 
+            float montante = capital * (float)Math.Pow(1 + (taxa / 100), periodo);
+            Console.WriteLine("Montante: R${0:F2}", montante);
         }
 
         static void CalcularCapital()
         {
+            Console.WriteLine("Montante (em R$): ");
+            float montante = float.Parse(Console.ReadLine());
+            Console.WriteLine("Taxa de Juros: (em %): ");
+            int taxa = int.Parse(Console.ReadLine());
+            Console.WriteLine("Periodo (em meses): ");
+            int periodo = int.Parse(Console.ReadLine());
 
+            float capital = montante / (float)Math.Pow(1 + (taxa / 100), periodo);
+            Console.WriteLine("Capital: R${0:F2}", capital);
         }
 
         static void CalcularJuros()

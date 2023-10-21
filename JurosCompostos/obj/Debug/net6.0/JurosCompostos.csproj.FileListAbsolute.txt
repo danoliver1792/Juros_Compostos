@@ -1,0 +1,14 @@
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\bin\Debug\net6.0\JurosCompostos.exe
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\bin\Debug\net6.0\JurosCompostos.deps.json
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\bin\Debug\net6.0\JurosCompostos.runtimeconfig.json
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\bin\Debug\net6.0\JurosCompostos.dll
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\bin\Debug\net6.0\JurosCompostos.pdb
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\obj\Debug\net6.0\JurosCompostos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\obj\Debug\net6.0\JurosCompostos.AssemblyInfoInputs.cache
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\obj\Debug\net6.0\JurosCompostos.AssemblyInfo.cs
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\obj\Debug\net6.0\JurosCompostos.csproj.CoreCompileInputs.cache
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\obj\Debug\net6.0\JurosCompostos.dll
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\obj\Debug\net6.0\refint\JurosCompostos.dll
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\obj\Debug\net6.0\JurosCompostos.pdb
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\obj\Debug\net6.0\JurosCompostos.genruntimeconfig.cache
+C:\Users\danrl\OneDrive\C#\JurosCompostos\JurosCompostos\obj\Debug\net6.0\ref\JurosCompostos.dll
