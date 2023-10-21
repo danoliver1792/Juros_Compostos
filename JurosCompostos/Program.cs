@@ -28,15 +28,12 @@ namespace JurosCompostos
                         CalcularCapital();
                         break;
                     case 3:
-                        CalcularJuros();
-                        break;
-                    case 4:
                         CalcularTaxa();
                         break;
-                    case 5:
+                    case 4:
                         CalcularPeriodo();
                         break;
-                    case 6:
+                    case 5:
                         Console.WriteLine("Saindo do Programa");
                         return;
                     default:
@@ -52,7 +49,7 @@ namespace JurosCompostos
             Console.WriteLine("Capital (em R$): ");
             float capital = float.Parse(Console.ReadLine());
             Console.WriteLine("Taxa de Juros (em %): ");
-            int taxa = int.Parse(Console.ReadLine());
+            float taxa = float.Parse(Console.ReadLine());
             Console.WriteLine("Periodo (em meses): ");
             int periodo = int.Parse(Console.ReadLine());
 
@@ -65,7 +62,7 @@ namespace JurosCompostos
             Console.WriteLine("Montante (em R$): ");
             float montante = float.Parse(Console.ReadLine());
             Console.WriteLine("Taxa de Juros: (em %): ");
-            int taxa = int.Parse(Console.ReadLine());
+            float taxa = float.Parse(Console.ReadLine());
             Console.WriteLine("Periodo (em meses): ");
             int periodo = int.Parse(Console.ReadLine());
 
@@ -73,14 +70,17 @@ namespace JurosCompostos
             Console.WriteLine("Capital: R${0:F2}", capital);
         }
 
-        static void CalcularJuros()
-        {
-
-        }
-
         static void CalcularTaxa()
         {
+            Console.WriteLine("Montante (em R$): ");
+            float montante = float.Parse(Console.ReadLine());
+            Console.WriteLine("Capital (em R$): ");
+            float capital = float.Parse(Console.ReadLine());
+            Console.WriteLine("Periodo (em meses): ");
+            int periodo = int.Parse(Console.ReadLine());
 
+            float taxa = (float)(Math.Pow((montante / capital), periodo) - 1) * 100;
+            Console.WriteLine("Taxa: {0:F1}%", taxa);
         }
 
         static void CalcularPeriodo()
