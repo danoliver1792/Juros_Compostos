@@ -11,10 +11,9 @@ namespace JurosCompostos
                 Console.WriteLine("Escolha o que deseja calcular: ");
                 Console.WriteLine("1 - Montante");
                 Console.WriteLine("2 - Capital");
-                Console.WriteLine("3 - Juros");
-                Console.WriteLine("4 - Taxa de Juros");
-                Console.WriteLine("5 - Periodo");
-                Console.WriteLine("6 - Sair");
+                Console.WriteLine("3 - Taxa de Juros");
+                Console.WriteLine("4 - Periodo");
+                Console.WriteLine("5 - Sair");
                 Console.Write("Opcao: ");
 
                 int opcao = int.Parse(Console.ReadLine());
@@ -61,7 +60,7 @@ namespace JurosCompostos
         {
             Console.WriteLine("Montante (em R$): ");
             float montante = float.Parse(Console.ReadLine());
-            Console.WriteLine("Taxa de Juros: (em %): ");
+            Console.WriteLine("Taxa de Juros (em %): ");
             float taxa = float.Parse(Console.ReadLine());
             Console.WriteLine("Periodo (em meses): ");
             int periodo = int.Parse(Console.ReadLine());
@@ -85,7 +84,15 @@ namespace JurosCompostos
 
         static void CalcularPeriodo()
         {
+            Console.WriteLine("Montante (em R$): ");
+            float montante = float.Parse(Console.ReadLine());
+            Console.WriteLine("Capital (em R$): ");
+            float capital = float.Parse(Console.ReadLine());
+            Console.WriteLine("Taxa de Juros (em %): ");
+            float taxa = float.Parse(Console.ReadLine());
 
+            int periodo = (int)(Math.Log(montante / capital) / Math.Log(1 + (taxa / 100)));
+            Console.WriteLine("Periodo: {0:F0} anos", periodo);
         }
     }
 }
